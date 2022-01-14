@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title> Working mobile dialer</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/page2.css">
+</head>
+
+<body>
+
+	<div class = "container">
+		<div id="result"></div>
+		<div class="row">
+			<button1 onclick = "appendString('1')"><div class="num" id="one">1</div></button>
+			<button1 onclick = "appendString('2')"><div class="num" id="two">2
+				<div class="sub" id="ABC">ABC</div>
+			</div></button>
+			<button2 onclick = "appendString('3')"><div class="num" id="three">3
+				<div class="sub" id="DEF">DEF</div>
+			</div></button>
+		</div>
+
+		<div class="row">
+			<button1 onclick = "appendString('4')"><div class="num" id="four">4
+				<div class="sub" id="GHI">GHI</div>
+			</div></button>
+			<button1 onclick = "appendString('5')"><div class="num" id="five">5
+				<div class="sub" id="JKL">JKL</div>
+			</div></button>
+			<button2 onclick = "appendString('6')"><div class="num" id="six">6
+				<div class="sub" id="MNO">MNO</div>
+			</div></button>
+		</div>
+
+		<div class="row">
+			<button1 onclick = "appendString('7')"><div class="num" id="seven">7
+				<div class="sub" id="PQRS">PQRS</div>
+			</div></button>
+			<button1 onclick = "appendString('8')"><div class="num" id="eight">8
+				<div class="sub" id="TUV">TUV</div>
+			</div></button>
+			<button2 onclick = "appendString('9')"><div class="num" id="nine">9
+				<div class="sub" id="WXYZ">WXYZ</div>
+			</div></button>
+		</div>
+
+		<div class="row">
+			<button1 onclick = "appendString('*')"><div class="num">*</div></button1>
+			<button1 onclick = "appendString('0')"><div class="num">0</div></button1>
+			<button1 onclick = "appendString('#')"><div class="num">#</div></button1>
+		</div>
+
+		<div class="bottom"><i class="fa fa-star-o n" aria-hidden="true"></i>
+			<div id="call"><i class="fa fa-phone" aria-hidden="true"></i></div>
+
+			<button1 onclick="removeChar()"><i class="fa fa-long-arrow-left n" aria-hidden="true"></i></button>
+		</div>
+
+</div>	
+
+<script src="js/page3.js"></script>
+
+</body>
+</html>
